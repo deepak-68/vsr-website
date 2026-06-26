@@ -112,8 +112,15 @@
                                        </div>
                                    @else
                                        <!-- Guest: Show Login Link -->
-                                       <a href="{{ route('login') }}" class="link-btn">
+                                       {{-- <a href="{{ route('login') }}" class="link-btn">
                                            <i class="fal fa-user"></i>Login
+                                       </a> --}}
+
+                                       <a href="https://user.visoraushaven.in/" class="link-btn">
+                                           <i class="fal fa-user"></i>Login
+                                       </a>
+                                       <a href="https://user.visoraushaven.in/register" class="link-btn">
+                                           <i class="fal fa-user"></i>Register
                                        </a>
                                    @endauth
 
