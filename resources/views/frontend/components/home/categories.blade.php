@@ -11,6 +11,7 @@
                       </div>
                      <span class="sec-subtitle">Our Categories</span>
                     <h2 class="sec-title">Browse Our Categories</h2>
+                    <p class="fw-normal">Explore our range of wellness essentials, carefully grouped to help you find exactly what your body needs. <br />From everyday health to personal care, every category is built around real results.</p>
                   </div>
                  
                     

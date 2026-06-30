@@ -60,7 +60,7 @@
                                 <ul>
                                     @foreach($cards as $card)
                                         <li>
-                                            <a href="{{ route('services') }}" class="vs-btn">
+                                            <a href="javascript:void(0)" class="vs-btn">
                                                 {{ $card['title'] ?? 'Service' }}
                                                 <i class="fas fa-angle-double-right"></i>
                                             </a>
@@ -75,31 +75,31 @@
 
                     {{-- Icon & Description --}}
                    {{-- Icon & Description --}}
-<div class="col-lg-3">
-    <div class="service-inner">
-        <div class="service-icon">
-            <img src="{{ $iconUrl }}" 
-                 alt="service icon"
-                 onerror="this.src='{{ asset('assets/img/about/about-bg-2-1.jpg') }}'">
-        </div>
-        <div class="service-content">
-            @if($activeItem)
-                <h2 class="service-title h4">
-                    <a href="{{ route('service-details') }}">
-                        {{ $activeItem['title'] ?? 'Service Title' }}
-                    </a>
-                </h2>
-                
-                {{-- ✅ Fixed: Render HTML properly --}}
-                <p class="service-text">
-                    {!! $activeItem['description'] ?? 'No description available.' !!}
-                </p>
-                
-                <a class="link-btn" href="{{ route('services') }}">Read More</a>
-            @endif
-        </div>
-    </div>
-</div>
+                    <div class="col-lg-3">
+                        <div class="service-inner">
+                            <div class="service-icon overflow-hidden">
+                                <img src="{{ $iconUrl }}" 
+                                    alt="service icon"
+                                    onerror="this.src='{{ asset('assets/img/about/about-bg-2-1.jpg') }}'">
+                            </div>
+                            <div class="service-content">
+                                @if($activeItem)
+                                    <h2 class="service-title h4">
+                                        <a href="{{ route('service-details') }}">
+                                            {{ $activeItem['title'] ?? 'Service Title' }}
+                                        </a>
+                                    </h2>
+                                    
+                                    {{-- ✅ Fixed: Render HTML properly --}}
+                                    <p class="service-text">
+                                        {!! $activeItem['description'] ?? 'No description available.' !!}
+                                    </p>
+                                    
+                                    {{-- <a class="link-btn" href="{{ route('services') }}">Read More</a> --}}
+                                @endif
+                            </div>
+                        </div>
+                    </div>
 
                     {{-- Main Image --}}
                     <div class="col-lg-5">

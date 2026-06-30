@@ -8,8 +8,7 @@
                     <div class="selling-style1 space-top">
                         <div class="title-area wow fadeInUp wow-animated" data-wow-delay="0.3s">
                             <span class="sec-subtitle">Consult Now</span>
-                            <h2 class="sec-title">Speak with our team and explore the right wellness solutions for you.
-</h2>
+                            <h2 class="sec-title">Your wellness journey deserves the right advice. Talk to us, free of cost.</h2>
                         </div>
                          <a href="{{ route('consult-now') }}" class="vs-btn">Consult now for free</a>
                         

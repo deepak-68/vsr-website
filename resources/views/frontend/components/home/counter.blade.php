@@ -7,8 +7,8 @@
             <div class="col-lg-7">
                 <div class="title-area text-left wow fadeInUp wow-animated" data-wow-delay="0.3s">
                     <span class="sec-subtitle mb-0 text-theme">Why Choose VSR Wellness</span>
-                    <h2 class="sec-title">Wellness You Can Trust, Results You Can Feel</h2>
-                    <p class="title-text">With a strong focus on quality, carefully selected ingredients, and a customer-first approach, our goal is to make healthy living easy, accessible, and truly impactful.</p>
+                    <h2 class="sec-title">Thoughtfully crafted for your everyday well-being.</h2>
+                    <p class="title-text">Employing finest materials, trusted recipes, and uncompromising quality requirements, VSR Wellness is your source of inspiration for a healthy lifestyle that lasts not just a day but a lifetime.</p>
                 </div>
             </div>
             {{-- <div class="col-lg-5">

@@ -9,6 +9,7 @@
             </div>
             <span class="sec-subtitle">Our Products</span>
             <h2 class="sec-title">Organic Products</h2>
+            <p>Pure ingredients, honest formulations, and nothing artificial. Our organic range is crafted to support your health the natural way, <br />so you can feel good about what you put into your body.</p>
         </div>
         <div class="row vs-carousel z-index-common" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
             data-autoplay="true" data-arrows="false" data-dots="true" data-center-mode="true">

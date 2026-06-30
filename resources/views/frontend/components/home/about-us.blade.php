@@ -23,7 +23,7 @@
               <div class="col-lg-6">
                   <div class="about-content">
                       <p class="about-text" align="justify">
-                          {{ $about['description_1'] ?? '' }}
+                          {!! nl2br(e($about['description_1'] ?? '')) !!}
                       </p>
                   </div>
               </div>
@@ -34,7 +34,7 @@
                       </a>
                       <img src="{{ $about['image'] ?? 'assets/img/about/about-bg-2-1.jpg' }}" alt="about img"
                           class="img1">
-                      <div class="img-content">
+                      <div class="img-content" style="left: 40px; bottom: -50px;">
                           <h2 class="img-title h4"> {{ $about['feature_1_title'] ?? '' }}</h2>
                           <a href="{{ route('about-us') }}" class="vs-btn">Certify Products</a>
                       </div>
