@@ -9,8 +9,7 @@
             </div>
             <span class="sec-subtitle">Meet Our Experts</span>
             {{-- <h2 class="sec-title">Qualified Formers</h2> --}}
-            <p>A dedicated team of professionals passionate about wellness, working together to create safe, effective, and reliable solutions you can trust.
-</p>
+            <p>VSR Wellness team consists of highly qualified and passionate experts. They work behind the scenes and directly with customers, finding your well-being one and only aim.</p>
         </div>
         
         @if(isset($team) && count($team) > 0)
